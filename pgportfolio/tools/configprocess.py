@@ -4,8 +4,9 @@ import time
 from datetime import datetime
 import json
 import os
-rootpath = os.path.dirname(os.path.abspath(__file__)).\
-    replace("\\pgportfolio\\tools", "").replace("/pgportfolio/tools","")
+
+rootpath = os.path.dirname(os.path.abspath("__file__")).replace("\\pgportfolio\\tools", "").replace("/pgportfolio/tools","")
+
 
 try:
     unicode        # Python 2
